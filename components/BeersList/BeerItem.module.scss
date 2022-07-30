@@ -1,0 +1,29 @@
+.container {
+  flex: 1;
+  display: flex;
+  padding: 10px;
+  border: 1px solid lightgray;
+  margin-bottom: 5px;
+  min-width: 100px;
+  min-height: 100px;
+  &:hover {
+    cursor: pointer;
+    background: #f5f5f5;
+  }
+}
+
+.image {
+  position: relative;
+  min-width: 50px;
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: right;
+  h6 {
+    font-style: italic;
+  }
+}
