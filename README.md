@@ -4,7 +4,7 @@
 
 ---
 
-###Technologies
+### Technologies
 * Next.js
 * React
 * TypeScript
