@@ -10,7 +10,6 @@ interface Props {
 }
 
 const BeersList = ({ beers }: Props) => {
-
     const {
         data,
         error,
