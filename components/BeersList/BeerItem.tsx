@@ -5,7 +5,7 @@ import Image from "next/image";
 interface Props {
     name: string;
     tagline: string;
-    imageUrl: string;
+    imageUrl?: string;
 }
 
 const BeerItem = forwardRef<HTMLDivElement, Props>(({ name, tagline, imageUrl }, ref) => (
